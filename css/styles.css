@@ -1,0 +1,160 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ================= 
+MY STYLES 
+==================== */
+body {
+    background-color: #aad4cf;
+	font-family: arial;
+}
+
+.container {
+    background-color: #d4e9e7;
+    width: 1025px;
+    margin: 0 auto;
+}
+
+.lone-starfish  {
+	float: left;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	padding-top: 15px;
+	padding-right: 16px;
+	height: 250px;
+	width: 250px;
+}
+
+h1 {
+	
+	font-family: arial;
+	font-size: 36px;
+	color: white;
+	text-align: center;
+	z-index: 2;
+}
+
+
+.facts-list {
+	list-style: circle;
+	font-family: arial;
+	padding-left: 28px;
+	padding-top: 15px;
+}
+
+form {
+	border: 1px solid black;
+	font-family: arial;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 20px;
+}
+
+p {
+	font-family: arial;
+	line-height: 1.4rem;
+	padding-left: 10px;
+	padding-right: 20px;
+	padding-top: 15px;
+	font-size: 16px;
+
+}
+
+h2 {
+	font-family: arial;
+	font-size: 30px;
+	padding-left: 10px;
+	padding-top: 15px;
+}
+
+h3 {
+	font-family: arial;
+	font-size: 24px;
+	padding-left: 10px;
+	padding-top: 20px;
+}
+
+.wide-img {
+	z-index: 1;
+}
+
+.nav {
+
+	padding-right: 20px;
+	padding-left: 20px;
+	border-right: 1px solid black;
+	font-family: arial;
+}
+
+footer {
+	padding-right: 20px;
+}
+
+text {
+	float: right;
+	font-family: arial;
+	font-size: 14px;
+}
+
+.credits {
+	float: right;
+}
+
+.radio {
+	float: inline-start;
+}
+
+h4 {
+	font-family: arial;
+	font-size: 12px;
+}
+
+button {
+	border: 1px solid black
+}
